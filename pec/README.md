@@ -9,3 +9,5 @@ pec_JF.py : SVD and optimization of J
 pec_JFU.py : SVD and optimization of J+U
 
 plot_diff.py : plots the differences of SVD/J/J+U to FCI (Need to run both pec_JF.py and pec_JFU first)
+
+data : results obtained (in slightly different format)
