@@ -1,14 +1,9 @@
-# Jastrow factorization
-This repository contains the following three different programs for testing the Jastrow factorization of ab initio Hamiltonians.
-
-## Error
-This directory includes the codes that plots the difference of approximated Hamiltonians using
+## PEC (Potential energy curve)
+This directory is for plotting the potential energy curves for H2 and LiH in three approximations:
 - singular value decomposition (SVD)
 - optimization of J
 - optimization of J and U.
 
-## PEC (Potential energy curve)
-This directory is for plotting the potential energy curves for H2 and LiH in various approximations.
-
-## Time
-This directory contais the codes that plots the time took to complete the above mentioned computation.
+pec_JF.py : SVD and optimization of J
+pec_JFU.py : SVD and optimization of J+U
+plot_diff.py : plots the difference of SVD/J/J+U (Need to run both pec_JF.py and pec_JFU first)
